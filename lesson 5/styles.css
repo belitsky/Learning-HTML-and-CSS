@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-rendering: geometricPrecision;
+}
+
+body {
+	font-family: Arial;
+	background-color: #bebebe;
+	color: #333;
+}
+
+h1 {
+	background: white;
+	font-size: 50px;
+	
+}
+
+h2 {
+	background: white;
+}
+
+p {
+	background: white;
+	font-style: italic;
+}
+
+h2 {
+	color: #555;
+	border-top: solid 1px #333;
+}
+
+ol {
+	background: white;
+	border: solid 1px #333;
+	/*padding: 20px 20px 20px 40px;
+	margin: 5% 0;*/
+
+}
+
+/*Обращение к объекту через ID*/
+#colorise {
+	background: #666;
+	color: #4d2d06;
+	font-family: verdana;
+}
+
+/*Обращение к классу объекта*/
+.chapter {
+	background: #222;
+	color: #eee;
+	font-size: 24px;
+}
