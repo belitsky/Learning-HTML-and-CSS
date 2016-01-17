@@ -8,6 +8,7 @@ body {
 	font-family: Arial;
 	background-color: #bebebe;
 	color: #333;
+	background-image: url('images/BLUR-18.jpg');
 }
 
 h1 {
@@ -50,4 +51,20 @@ ol {
 	background: #222;
 	color: #eee;
 	font-size: 24px;
+}
+
+.backgroundimage {
+	width: 200px;
+	height: 200px;
+	border: solid 1px black;
+}
+
+#background1 {
+	background-image: url('images/BLUR-18.jpg');
+}
+
+#background2 {
+	background-image: url('images/LOW-POLY-11.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 }
